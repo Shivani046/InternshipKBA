@@ -1,6 +1,29 @@
-<<<<<<< HEAD
-# InternshipKBA
-=======
-# InternshipKBA
-A full-stack student management web app built with React, Express, and MongoDB
->>>>>>> 3a1133841cce9e9d63ad3d01c9164775a5854281
+# Student Management System
+
+A full-stack web application for managing student information with a modern React frontend and Express backend.
+
+## Features
+
+- Add student details (ID, Name, Department, Year, Email, CGPA)
+-  Edit student information
+-  Delete students
+-  View all students in a professional table
+-  Material UI design with custom color palette
+
+## Tech Stack
+
+- **Frontend:** React + Material UI
+- **Backend:** Express.js
+- **Database:** MongoDB
+- **Styling:** Material UI with custom theme
+
+## Installation & Setup
+
+### Prerequisites
+- Node.js and npm installed
+- MongoDB running locally OR MongoDB Atlas account
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Shivani046/InternshipKBA.git
+cd InternshipKBA
