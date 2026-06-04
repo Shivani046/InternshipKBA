@@ -5,10 +5,10 @@ A full-stack web application for managing student information with a modern Reac
 ## Features
 
 - Add student details (ID, Name, Department, Year, Email, CGPA)
--  Edit student information
--  Delete students
--  View all students in a professional table
--  Material UI design with custom color palette
+- Edit student information
+- Delete students
+- View all students in a professional table
+- Material UI design with custom color palette
 
 ## Tech Stack
 
@@ -17,13 +17,21 @@ A full-stack web application for managing student information with a modern Reac
 - **Database:** MongoDB
 - **Styling:** Material UI with custom theme
 
-## Installation & Setup
+## How to Run
 
 ### Prerequisites
 - Node.js and npm installed
 - MongoDB running locally OR MongoDB Atlas account
 
-### 1. Clone the Repository
+### Quick Start
+
+**Step 1: Clone the Repository**
 ```bash
 git clone https://github.com/Shivani046/InternshipKBA.git
 cd InternshipKBA
+```
+**Step 2: Install & Run**
+```bash
+npm install
+npm run install-all
+npm start
