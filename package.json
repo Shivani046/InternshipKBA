@@ -1,7 +1,7 @@
 {
   "name": "internshipkba",
   "version": "1.0.0",
-  "description": "",
+  "description": "Full-stack Student Management System",
   "homepage": "https://github.com/Shivani046/InternshipKBA#readme",
   "bugs": {
     "url": "https://github.com/Shivani046/InternshipKBA/issues"
@@ -11,14 +11,20 @@
     "url": "git+https://github.com/Shivani046/InternshipKBA.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "Shivani",
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\"",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "^5.2.1",
     "mongoose": "^9.6.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
   }
 }
